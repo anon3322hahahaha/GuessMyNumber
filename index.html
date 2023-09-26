@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess my number!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button class="again_btn">Restart</button>
+    <h1 class="title">❓Guess My Number❓</h1>
+    <div class="start_box">
+      <h2 class="start_text">Guess range:</h2>
+      <p class="start_text2">From 0 to</p>
+      <input type="text" class="input_start" />
+      <button class="start">Start🏁</button>
+      <p class="warn"></p>
+    </div>
+    <div class="container">
+      <div class="text_side">
+        <p class="try_text">💯Tries: <span class="try_number">5</span></p>
+        <p class="highscore_text">
+          🏆Highscore: <span class="highscore_number">0</span>
+        </p>
+      </div>
+      <div class="guess_box">
+        <input type="text" class="guess_input" />
+        <button class="check">Check🎲</button>
+        <p class="answer">Guessing...</p>
+      </div>
+    </div>
+    <button class="again_btn2">Restart</button>
+    <script src="script.js"></script>
+  </body>
+</html>

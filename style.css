@@ -1,0 +1,180 @@
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+  background-color: #feffec;
+}
+
+.btn {
+  text-decoration: none;
+}
+
+.again_btn {
+  margin: 30px;
+  border-radius: 10px;
+  padding: 20px 50px;
+  font-size: 18px;
+  border: none;
+  background-color: rgb(72, 44, 255);
+  color: rgb(255, 255, 255);
+  box-shadow: rgb(170, 157, 254) 0 2px 4px, rgb(170, 157, 254) 0 7px 13px -3px,
+    rgb(170, 157, 254) 0 -3px 0 inset;
+  cursor: pointer;
+}
+.again_btn2 {
+  margin: 30px;
+  border-radius: 10px;
+  padding: 20px 50px;
+  font-size: 18px;
+  border: none;
+  background-color: rgb(72, 44, 255);
+  color: rgb(255, 255, 255);
+  box-shadow: rgb(170, 157, 254) 0 2px 4px, rgb(170, 157, 254) 0 7px 13px -3px,
+    rgb(170, 157, 254) 0 -3px 0 inset;
+  cursor: pointer;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+  color: #222;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-template-rows: 27px 0;
+  grid-gap: 20px;
+  align-items: center;
+}
+.title:after,
+.title:before {
+  content: " ";
+  display: block;
+  border-bottom: 2px solid #000000;
+  border-top: 2px solid #000000;
+  height: 5px;
+  background-color: #feffec;
+}
+
+.start_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  margin: 100px;
+}
+
+.start_text {
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-right: 30px;
+  position: absolute;
+  top: -80%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.start_text2 {
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.input_start {
+  width: 80px;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 10px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.start {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  margin: 30px 0;
+  border-radius: 10px;
+  padding: 20px 50px;
+  font-size: 18px;
+  border: none;
+  background-color: rgb(72, 44, 255);
+  color: rgb(255, 255, 255);
+  box-shadow: rgb(170, 157, 254) 0 2px 4px, rgb(170, 157, 254) 0 7px 13px -3px,
+    rgb(170, 157, 254) 0 -3px 0 inset;
+  cursor: pointer;
+}
+
+.container {
+  margin: 500px 250px 50px 250px;
+  background-color: lightgray;
+  padding: 50px;
+  border-radius: 20px;
+  border: 1px solid;
+}
+
+.guess_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.guess_input {
+  width: 130px;
+  height: 80px;
+  border: 1px solid;
+  border-radius: 10px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.check {
+  margin: 30px 0;
+  border-radius: 10px;
+  padding: 15px 35px;
+  font-size: 18px;
+  border: none;
+  background-color: rgb(72, 44, 255);
+  color: rgb(255, 255, 255);
+  box-shadow: rgb(170, 157, 254) 0 2px 4px, rgb(170, 157, 254) 0 7px 13px -3px,
+    rgb(170, 157, 254) 0 -3px 0 inset;
+  cursor: pointer;
+}
+
+.text_side {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+.text_side p {
+  font-size: 30px;
+}
+
+.answer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.warn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 200%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  font-size: 50px;
+  width: 400px;
+  height: 80px;
+  border-radius: 20px;
+}
